@@ -6,13 +6,13 @@ on:
       ARCHITECTURE:
         description: 'Architecture'
         required: true
-        default: 'x86_64'
+        default: 'armeabi-v7a'
         type: choice
         options:
         - x86_64
         - x86
         - arm64-v8a
-        - armaebi-v7a
+        - armeabi-v7a
 
 permissions:
   contents: write
